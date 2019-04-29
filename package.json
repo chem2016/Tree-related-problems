@@ -4,7 +4,7 @@
   "description": "",
   "main": "findClosetValueInBst.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "./node_modules/mocha/bin/mocha spec/findClosetValueInBst_spec.js --watch"
   },
   "keywords": [],
   "author": "",

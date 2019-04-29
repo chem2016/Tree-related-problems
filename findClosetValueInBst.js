@@ -1,8 +1,8 @@
 function findClosestValueInBst(tree, target) {
     // Write your code here.
       console.log('Current value: ', tree.value)
-      console.log('Current left: ', tree.left.value)
-      console.log('Current right: ', tree.right.value)
+    //   console.log('Current left: ', tree.left.value)
+    //   console.log('Current right: ', tree.right.value)
   
       if(tree.value === target){
           console.log('Exact target')
@@ -27,6 +27,10 @@ function findClosestValueInBst(tree, target) {
   }
   
   // Do not edit the line below.
+
+  module.exports = findClosestValueInBst;
+
+    
   
-  exports.findClosestValueInBst = findClosestValueInBst;
+
   
