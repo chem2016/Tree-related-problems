@@ -1,0 +1,20 @@
+{
+  "name": "findClosetValueInBst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "findClosetValueInBst.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmin": "0.0.2",
+    "jasmine": "^3.4.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
