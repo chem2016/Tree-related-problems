@@ -1,4 +1,5 @@
 const expect = require("chai").expect;
+const assert = require("chai").assert;
 const findClosetValueInBst = require('../findClosetValueInBst');
 
 class BST{
@@ -45,5 +46,11 @@ describe("findClosetValueInBst is a function", () => {
     it("testing case #3", ()=>{
         expect(findClosetValueInBst(test, 208)).to.deep.equal(208)
     });
+    it("testing case #4", ()=>{
+        expect(findClosetValueInBst(test, 4501)).to.deep.equal(4500)
+    });
+    it("testing case #5", ()=>{
+        assert.equal(findClosetValueInBst(test, 4502), 4500)
+    })
   });
 
